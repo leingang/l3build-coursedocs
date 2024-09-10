@@ -1,0 +1,12 @@
+{
+    "pset_number" : 1,
+    "pset_code" : "{{ 'ps%d'|format(cookiecutter.pset_number|int) }}",
+    "pset_name" : "{{ 'Problem Set %d'|format(cookiecutter.pset_number|int) }}",
+    "course_name" : "",
+    "term_name" : "",
+    "bundle_name": "",
+    "pset_due_date" : "{% now 'local', '%Y-%m-%d' %}",
+    "pset_due_date_local" : "{{ cookiecutter.pset_due_date|strftime }}",
+    "pset_due_date_local_disabled" : "{% now 'local', '%B %d, %Y' %}",
+    "_extensions": ["local_extensions.strftime"]
+}
