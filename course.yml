@@ -3,18 +3,25 @@ default_context:
   instructor_name: "Prof. Matthew Leingang"
   email: "leingang@nyu.edu"
   department_code: "MATH-UA"
-  course_number: "123"
-  section_number: "002"
-  term_season: "Spring"
-  term_year: "2024"
-  course_name: "MATH-UA 123.002 Calculus III"
-  term_name: "Spring 2024"
-  site_id: "345906"
-  number_copies: 44
-  bundle_name: calc3-fall23-docs
-# unused
-  localized_date_format: "%B %-d, %Y"
-  localized_datetime_format: "%B %-d, %Y, %-i:%M %p"
+  course_number: ""
+  section_number: ""
+  term_season: ""
+  term_year: ""
+  course_name: ""
+  short_course_name: ""
+  term_name: ""
+  site_id: ""
+  number_copies: 30
+  bundle_name: ""
+  use_nyu_fonts: true
+  use_randomlist: false
+  has_versions: false
+  versions_csv: ""
+  versions_with_solutions: ""
+  version_randomization_groups: ""
+  extra_latex_packages: ""
+  extra_tikz_libraries: ""
+  install_dir: "../../../Share"
 abbreviations:
   pp: https://github.com/audreyr/cookiecutter-pypackage.git
   gh: https://github.com/{0}.git
